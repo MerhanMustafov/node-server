@@ -1,0 +1,18 @@
+{
+    "bail": 1,
+  "verbose": true,
+  "forceExit": true,
+  "preset": "ts-jest",
+  "clearMocks": true,
+  "watchman": true,
+  "transform": {
+  "^.+\\.tsx?$": "ts-jest"
+  },
+  "testEnvironment": "node",
+  "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+}
+
+
+
